@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <script 
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+</script>
+    <title>Codeplayer</title>
+</head>
+<body>
+    <!-- navbar content -->
+    <div class="navbar">
+        <div class="logo">
+            Codeplayer <sup>2.0</sup>
+        </div>
+        <div class="button-container">
+            <div class="button" id="html">HTML</div>
+            <div class="button" id="css">CSS</div>
+            <div class="button" id="javascript">Javascript</div>
+            <div class="button" id="output">Output</div>
+        </div>
+    </div>
+    <main class="container">
+        <textarea id="htmlTextPanel" class="panel hidden" placeholder="Write some HTML text here..."></textarea>
+        <textarea id="cssTextPanel" class="panel hidden" placeholder="Write some CSS styling text here..."></textarea>
+        <textarea id="javascriptTextPanel" class="panel hidden" placeholder="Write some Javascript text here..."></textarea>
+        <iframe id="outputTextPanel" class="panel hidden"></iframe>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
